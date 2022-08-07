@@ -31,6 +31,7 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: bold;
+  color: #fa8807;
 
 }
 
@@ -63,7 +64,7 @@ nav img {
 
 nav span {
   color: rgba(23, 190, 190, 0.897);
-  font-size: 60px;
+  font-size: 30px;
   font-weight: lighter;
   margin-top: 20px;
   margin-left: 2px;
@@ -72,9 +73,9 @@ nav span {
 .header,
 .main__card {
   display: flex;
-  /* posiciona os  elementos de acima- abaixo */
+  /* posicione os  elementos de acima- abaixo */
   justify-content: center;
-  /* posiciona os elementos de esquerda - direita */
+  /* posicione os elementos de esquerda - direita */
   align-items: center;
   /* Define si os elementos de posição colunas o em row */
   flex-direction: column;
@@ -266,15 +267,15 @@ form label span {
 }
 
 .main__button-validation {
-  background: #0e4b6e;
+  background: #939697;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  width: 250px;
+  width: 200px;
   height: 50px;
   border-radius: 50px;
   text-align: center;
   line-height: 50px;
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 18px;
   font-weight: bold;
 

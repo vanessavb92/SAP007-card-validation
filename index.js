@@ -1,9 +1,8 @@
 import validator from './validator.js';
 
-//console.log(validator);
 
 
-// pego id e  coloco en uma constante
+
 const form = document.getElementById('formCard');
 const inputNumCard = document.getElementById('textValidation');
 const inputNameCard = document.getElementById('mainNameValidation');
@@ -18,15 +17,16 @@ button.addEventListener("click", function (e) {
     let inputValue = inputNumCard.value;
     let inputCard = validator.isValid(inputValue);
 
+
     if (inputCard % 10 == true && inputValue.length >= 13 && inputValue.length <= 16) {
-        cardNumValid.textContent = 'O cartão de crédito é va´lido. pode usar';
+        cardNumValid.textContent = 'Cartão de crédito válido';
         cardNumInvalid.textContent = "";
         inputNumCard.classList.remove('main-textValidation-inValid');
         inputNumCard.classList.add('main-textValidation-valid');
 
     }
     else {
-        cardNumInvalid.textContent = 'O cartão de crédito não é va´lido. Não pode usar.';
+        cardNumInvalid.textContent = 'Cartão de crédito inválido.';
         cardNumValid.textContent = '';
         inputNumCard.classList.remove('main-textValidation-valid');
         inputNumCard.classList.add('main-textValidation-inValid');
@@ -39,7 +39,6 @@ button.addEventListener("click", function (e) {
 
 });
 
-// Exibe o texto de entrada no cartão e substitui espaços em branco, strings e caracteres.
 inputNumCard.addEventListener('keyup', function (e) {
     let valueInputNumCard = e.target.value;
     numUserCard.textContent = valueInputNumCard;
@@ -48,17 +47,14 @@ inputNumCard.addEventListener('keyup', function (e) {
 
 inputNameCard.addEventListener('keyup', function (e) {
     let valueInputNameCard = e.target.value;
-    // Mostra o texto em letras maiúsculas
     nameUserCard.textContent = valueInputNameCard.toUpperCase();
-    // Substitui os números por espaço vazio
     inputNameCard.value = valueInputNameCard.replace(/([0-9])/g, '');
-    //Se o texto estiver vazio, mostra este texto
     if (valueInputNameCard == '') {
         nameUserCard.textContent = 'Ex: vanessa borges';
     }
 });
 
-// muda os digítos por simbolos #..
+
 inputNumCard.addEventListener('keyup', function (e) {
     let cardNum = e.target.value;
     let replacement = validator.maskify(cardNum);
@@ -66,7 +62,6 @@ inputNumCard.addEventListener('keyup', function (e) {
 
 })
 
-// Remove e adiciona classes via click
 inputNumCard.addEventListener('click', function (e) {
     let cardNum = e.target.value;
     if (cardNum == 0) {

@@ -5,12 +5,13 @@
   <meta charset="utf-8">
   <title>Validando seu cartão de crédito</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+
 
 </head>
 
@@ -18,7 +19,7 @@
 
   <header>
     <nav class="navbar">
-      <img src="logo.png" alt="Logo ShopCard"><span>ShopCard</span>
+      <img src="img/logo.png" alt="Logo ShopCard"><span>ShopCard</span>
     </nav>
     <div class="header">
       <h1>Validador de cartão</h1>
@@ -31,7 +32,7 @@
       <h2>Qual é o objetivo de validar o número do cartão de crédito?</h2>
       <div class="main-info__block">
         <div class="main-info__img">
-          <img src="cartaopipoca.png" alt="Imagem cartao">
+          <img src="img/cartaopipoca.png" alt="Imagem cartao">
         </div>
         <div class="main-info__parrafo">
           <p class="main__cardP--black">Atualmente existe uma infinidade de cartões virtuais e físicos, utilizamos em
@@ -44,9 +45,10 @@
       </div>
     </section>
     <section class="main__parrafo-validation">
-      <h2 class="main__card-title">Vamos validar</h2>
+      <h2 class="main__card-title">Vamos validar ?</h2>
       <p class="main__cardP--black">Digite seu nome e o número de crédito que deseja testar e clique em validar.
-        <br>Você pode usar como exemplo o seguinte número de cartão que é verificado: <span>4137894711755904</span></p>
+        <br>Você pode usar como exemplo o seguinte número de cartão que é verificado:    <span> 4137894711755904</span>
+      </p>
     </section>
 
     <section class="main__card" id="mainCard">
@@ -58,6 +60,7 @@
         <p id="cardNum" class="main-cardNum">#### #### #### ####</p>
       </div>
 
+
       <div id="mainForm" class="main-form">
         <form id="formCard" class="form-card" autocomplete="off">
           <label for="mainNameValidation">Nome e Sobrenome(<span>Opcional</span>)</label>
@@ -66,18 +69,19 @@
           <input id="textValidation" class="main-textValidation" type="text" minlength="13" maxlength="16">
           <p id="cardNumValid" class="cardNum-valid"></p>
           <p id="cardNumInvalid" class="cardNum-invalid"></p>
+          <button class="main__button-validation" id="mainbuttonValidation">Validar</button>
         </form>
       </div>
-      <a class="main__button-validation" id="mainbuttonValidation" href="">Validar</a>
     </section>
   </main>
 
   <footer>
 
-    <p class="footer__copyright"> Copyright &copy; 2021 - shop-Bank </p>
+    <p class="footer__copyright"> Copyright &copy; 2022 - shop-Bank </p>
   </footer>
 
-  <script src="src/index.js" type="module"></script>
+  <script src="index.js" type="module"></script>
+
 </body>
 
 </html>
