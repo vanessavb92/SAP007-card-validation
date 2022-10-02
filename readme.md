@@ -1,4 +1,4 @@
- # Cartão de Crédito Válido (ShopCard) 
+ # Validador de cartão de crédito - ShopCard
  
  https://vanessavb92.github.io/SAP007-card-validation/
  1. Introdução
