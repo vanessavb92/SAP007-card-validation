@@ -1,5 +1,4 @@
-   # Cartão de Crédito Válido (ShopCard)
-   https://vanessavb92.github.io/SAP007-card-validation/
+ # Cartão de Crédito Válido (ShopCard) https://vanessavb92.github.io/SAP007-card-validation/
 1. Introdução
 Nosso site tem como objetivo ajudar compradores durante uma compra a verificar se aquele cartão que  estarão utilizando é validopor isso criamos o validador de cartão. Para validar o seu cartão de crédito, utilizamos a análise através do Algoritmo de Luhn que é a forma como é mais conhecida, ou também como é chamado de módulo 10. O algoritmo de Luhn é um método de soma de verificação, que é usado para validar números de identificação, como o IMEI de telefones celulares, cartões de crédito etc. Fonte Wikipedia.
 
