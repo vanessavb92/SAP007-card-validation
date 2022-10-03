@@ -36,7 +36,7 @@ Esse foi meu primeiro projeto no mundo da tecnologia, desejo daqui à algum temp
 
 <td align="center">
       <a href="https://github.com/vanessavb92">
-  <img align="center" alt="Vanessa Borges"  width="100px;" style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/89863244?v=4"> <br>
+  <img align="center" alt="Vanessa Borges"  width="100px;" style="border-radius:60px;" src="https://avatars.githubusercontent.com/u/89863244?v=4"> <br>
   <sub>
    <b>Vanessa Borges</b><br>
     <a href="https://www.linkedin.com/in/vanessa-borges-a05b4636/"><img align="center" alt="Vanessa Borges"  width="50px; "src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/linkedin/linkedin-original.svg"></a>
